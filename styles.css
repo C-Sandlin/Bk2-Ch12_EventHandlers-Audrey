@@ -1,0 +1,48 @@
+#topDiv {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+#art1 {
+    border: 1px solid mediumspringgreen;
+    width: 50%;
+    height: 200px;
+}
+
+#art2 {
+    border: 1px solid teal;
+    width: 50%;
+    height: 200px;
+}
+
+/* new section */
+
+#container {
+    display: flex;
+    min-height: 1500px;
+    border: 1px solid red;
+  }
+  
+  #audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    width: 50px;
+    position: fixed;
+  }
+
+  /* new section - Practice: wonder powers activate! */
+  
+.disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+}
